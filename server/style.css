@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+#link1 {
+    background-image: url(images/plex.png);
+}
+#link2 {
+    background-image: url(images/couchpotato.png);
+}
+#link3 {
+    background-image: url(images/sonarr.png);
+}
+#link4 {
+    background-image: url(images/sabnzbd.png);
+}
+.photo {
+    display: inline-block;
+    margin: 20px;
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+    background-size: 100%;
+}
+.photo:hover {
+    box-shadow: 1px 1px 1px black;
+    top: 5px;
+    left: 5px;
+}
+.name {
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
