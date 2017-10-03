@@ -5,35 +5,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
-        
         <link rel="shortcut icon" href="images/favicon.png">
     </head>
     <body>
-        <nav>
+        <!--<nav>
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Logout</li>
             </ul>
-        </nav>
+        </nav>-->
         <main>
             <h1>Welcome to Matt's SSO</h1>
             <!--<div><a href="http://rosenehlers.hopto.org/index.html">***Home***</a></div>-->
-            <div class="photo" id="link1"><a href="https://plex.tv"><div class="name">Plex</div></a></div>
-            <div class="photo" id="link2"><a href="192.168.1.4:5050"><div class="name">Couch Potato</div></a></div>
-            <br>
-            <div class="photo" id="link3"><a href="192.168.1.4:8989"><div class="name">Sonarr</div></a></div>
-            <div class="photo" id="link4"><a href="https://192.168.1.4:8080/"><div class="name">SABnzbd</div></a></div>
+            <div class="center">
+                <a href="https://plex.tv" target="_blank"><div class="photo" id="link1"><div class="name">Plex</div></div></a>
+                <a href="192.168.1.4:5050" target="_blank"><div class="photo" id="link2"><div class="name">Couch Potato</div></div></a>
+                <br>
+                <a href="192.168.1.4:8989" target="_blank"><div class="photo" id="link3"><div class="name">Sonarr</div></div></a>
+                <a href="https://192.168.1.4:8080/" target="_blank"><div class="photo" id="link4"><div class="name">SABnzbd</div></div></a>
+            </div>
         </main>
         <footer>
             <p>
-                Issues Logging In?
+                Questions for the developer?
             </p>
             <form action="https://formspree.io/mattehlers96@gmail.com" method="POST">
-                    Name: <input type="text" name="name"><br>
-                    Email: <input type="email" name="_replyto"><br>
-                    Question: <input type="text" name="description"><br>
-                    <input type="submit" value="Send">
+                    <div id="footer">
+                        Name: <input type="text" name="name"><br>
+                        Email: <input type="email" name="_replyto"><br>
+                        Question: <input type="text" name="description"><br>
+                        <input type="submit" value="Send">
+                    </div>
             </form>
         </footer>
     </body>
